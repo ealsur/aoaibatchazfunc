@@ -1,0 +1,56 @@
+env.bak/
+venv.bak/
+
+# Azure Functions
+bin/
+obj/
+csx/
+.vs/
+edge/
+Publish/
+
+*.user
+*.suo
+*.cscfg
+*.Cache
+project.lock.json
+
+/packages
+/TestResults
+/tools/NuGet.exe
+/App_Data/
+/secrets/
+/data/
+.secrets/
+appsettings.json
+local.settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python_packages/
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Node
+node_modules/
+dist/
+
+# Azurite artifacts
+__blobstorage__/
+__queuestorage__/
+__azurite_db*__.json
+
+# VS Code
+.vscode/
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
